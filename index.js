@@ -17,7 +17,7 @@ function addCarro(dados){
         botao.classList.add('button-item')
         botao.onclick = function remover(){
             if (menu[dados][2] > 0){
-                menu[dados][2]--
+                menu[dados][2] = 0
                 if (id_pedidos.has(dados)){
                     
                     var s = document.getElementById(`ti${dados}`)
