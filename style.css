@@ -21,6 +21,9 @@ header{
     background-position: center ;
     height: 300px;
 }
+#iendereco:hover{
+    cursor: text;
+}
 .burger-logo{
     margin: 10px;
     width: 160px;
